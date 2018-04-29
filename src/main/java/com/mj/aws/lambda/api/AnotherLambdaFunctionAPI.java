@@ -6,7 +6,7 @@ import com.mj.aws.lambda.domain.PayloadResponse;
 
 public interface AnotherLambdaFunctionAPI {
 
-    @LambdaFunction(functionName = "spring-cloud-function-series-sqs-template")
+    @LambdaFunction(functionName = "another.function.name")
     PayloadResponse triggerAnotherLambdaFunction(PayloadRequest resizeRequest);
 
 }
